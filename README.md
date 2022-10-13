@@ -1,2 +1,2 @@
 # lets-code
-Show your innovative mind and add some unique web game
+Show your creativity and add some unique web game
