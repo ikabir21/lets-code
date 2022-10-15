@@ -1,0 +1,67 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    grid-template-rows: 75px 75px 75px;
+    grid-auto-flow: row;
+}
+
+.box {
+    border: 1px solid #333;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+}
+
+.winner {
+    display: none;
+    text-align: center;
+    color: green;
+    font-size: 48px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    background-color: #000;
+    color: #FFF;
+    margin-bottom: 32px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table caption {
+    margin-bottom: 16px;
+}
+
+th {
+    background-color: #ccc;
+}
+
+td, th {
+    border: 1px solid #333;
+    text-align: center;
+}
