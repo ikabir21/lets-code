@@ -1,0 +1,27 @@
+{
+  "name": "games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShubMishra/Balls-and-Paddels.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "16.14.2"
+  },
+
+  "bugs": {
+    "url": "https://github.com/ShubMishra/Balls-and-Paddels/issues"
+  },
+  "homepage": "https://github.com/ShubMishra/Balls-and-Paddels#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
